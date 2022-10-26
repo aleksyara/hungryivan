@@ -22,6 +22,12 @@ h1 {
   font-weight: 900;
 }
 
+/* h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+} */
+
 h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
@@ -89,6 +95,41 @@ p {
   /* padding: 5%; */
 }
 
+
+/*  Testimonials  */
+
+
+#testimonials{
+  padding: 7% 18%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;  
+}
+
+.testimonials-image {
+   width: 40%;  
+   margin: 3%; 
+   border-radius: 10%;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+   margin: 0 3% 3% 3%;
+   border-radius: 10%;
+}
+.press-image-2 {
+  width: 13%;  
+  margin: 0 3% 3% 3%;
+  border-radius: 10%;
+  text-align: center;
+}
+
+/* Icons */
 .fas-icons {
   padding: 18px 18px;
   color: #ef8172;
@@ -99,9 +140,17 @@ p {
   color: #ff4c68;
 }
 
-.ms-1 {
+
+
+
+/* .ms-1 {
   margin-top: 0 !important;
-}
+} */
+
+
+
+
+
 /* @media screen and (max-width: 400px) {
   #features {
     width: 100%;

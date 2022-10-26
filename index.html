@@ -141,6 +141,7 @@
               class="d-block w-100"
               alt="dog-profile"
             />
+            <!-- <em>Beverly, Illinois</em> -->
           </div>
           <div class="carousel-item">
             <img
@@ -149,6 +150,7 @@
               class="d-block w-100"
               alt="..."
             />
+            <!-- <em>Beverly, Illinois</em> -->
           </div>
         </div>
         <button
@@ -158,6 +160,7 @@
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <!-- aria-hidden="true" - for users with the eye disabilitity -->
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -170,10 +173,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
-      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em> -->
     </section>
 
     <!-- Press -->
@@ -197,44 +196,96 @@
     <!-- Pricing -->
 
     <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
-
-      <h3>Chihuahua</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-      <h3>Labrador</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-
-      <h3>Mastiff</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+      <div class="bd-example">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/manti-chiko-piko-sauce.jpeg"
+                class="pricing-image"
+                alt="biz-insider-logo"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chicken Manty</h5>
+                <p class="card-text">
+                  Organic chicken thighs, Yukon Gold Potatoes, Sweet Vidalia
+                  Onions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/lambo.jpg"
+                class="pricing-lambo"
+                alt="biz-insider-logo"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lambo Manti</h5>
+                <p class="card-text">
+                  Australian Grass fed lamb with Oregon pumpkin.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/americano.jpg"
+                class="pricing-lambo"
+                alt="biz-insider-logo"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Americano Manti</h5>
+                <p class="card-text">
+                  USDA born and raised 100% American grass fed beef, Sweet
+                  Vidalia Onions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="images/lagman-3.jpeg"
+                class="pricing-image"
+                alt="biz-insider-logo"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Laghman</h5>
+                <p class="card-text">
+                  Udon noodles and beef soaked in a sauce that consists of
+                  onion, garlic, bell peppers, and herbs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <div col="row">
+        <button type="button" class="btn btn-outline-dark btn-lg nav-btn">
+          <i class="fa-regular fa-credit-card"></i> Order Online
+        </button>
+      </div>
+      <div class="row">
+        <img
+          src="images/all-you-need-is-plov.jpeg"
+          class="cta-image"
+          alt="tnw-logo"
+        />
+      </div>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© Copyright TinDog</p>
+      <p>© Copyright Hungry Ivan</p>
     </footer>
   </body>
 </html>
